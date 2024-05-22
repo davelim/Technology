@@ -1,6 +1,6 @@
 namespace Technology;
 
-public class Computer
+public class Computer : AbstractEntity
 {
     // field(s)/prop(s)
     public double Ram {get;set;}
