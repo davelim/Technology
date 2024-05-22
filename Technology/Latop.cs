@@ -1,5 +1,6 @@
-namespace Technology
-{ public class Laptop : Computer
+namespace Technology;
+
+public class Laptop : Computer
 {
    public double Weight { get; set; }
 
@@ -20,5 +21,4 @@ namespace Technology
          return false;
       }
    }
-}
 }
